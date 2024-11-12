@@ -1,0 +1,9 @@
+[package]
+name = "tf2-rcon"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-std = { version = "1.12.0", features = ["attributes"] }
+colored = "2.1.0"
+rcon = { version = "0.6.0", features = ["rt-async-std"] }
